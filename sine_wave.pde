@@ -132,16 +132,9 @@ class InputBox
   }
 }
 
-/*
- y: window.innerHeight / 2,
-    length: 200000,
-    amplitude: 80,
-    speed: 0.01,
-    y(t) = Asin(2 pi f t + phi) 
-     y = wave.y + Math.sin(i * wave.length) * wave.amplitude;
-     wave.y + Math.sin(i * wave.length + theta) * wave.amplitude * Math.sin(theta)
-     */
-
+//the program graphs the following function: f(x) = 350 + A*sin(2*PI*F*A + teta)
+//where A is amplitude, F is frequency and teta is displacement
+//teta is decremented by S
 
 void calc_wave()
 {
