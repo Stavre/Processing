@@ -77,7 +77,7 @@ class InputBox
         {
           input = input.substring(0, input.length() - 1);
         }
-        else if (key != BACKSPACE && key != ENTER && num_char > input.length())
+        else if (key != BACKSPACE && key != ENTER)
         {   
          
           input = input.concat(str(key));
